@@ -1,0 +1,92 @@
+
+body {
+  font-family: $primary-font;
+  width: 90%;
+  min-width: 250px;
+  max-width: 1000px;
+  padding: 5%;
+  margin: auto;
+  background-color: $small-blue;
+}
+
+.container {
+  padding: 15px;
+}
+
+.main-body{
+  width: 100%;
+  padding: 2px;
+}
+
+.primary-content {
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.article {
+  width: 100%;
+  border: 1px solid $black;
+  text-align: left;
+  padding: 5px;
+}
+
+.side-content {
+  width: 90%;
+  border: 1px dashed $red;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  clear: both;
+}
+
+.nav{
+  padding: 15px 0;
+}
+
+
+@media screen and (min-width: 675px) {
+
+  body {
+    background-color: $med-blue;
+  }
+
+  .primary-content {
+    width: 60%;
+    float: left;
+  }
+
+  .article {
+  border-left: none;
+  border-right: none;
+
+  }
+
+  .side-content {
+    width: 30%;
+    float: right;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+  }
+}
+
+@media screen and (min-width: 999px) {
+
+    body {
+      background-color: $large-blue;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    body {
+      background-color: $xlarge-blue;
+    }
+}
