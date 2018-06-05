@@ -1,4 +1,3 @@
-
 body {
   font-family: $primary-font;
   width: 90%;
@@ -13,7 +12,7 @@ body {
   padding: 15px;
 }
 
-.main-body{
+.main-body {
   width: 100%;
   padding: 2px;
 }
@@ -46,13 +45,10 @@ body {
   clear: both;
 }
 
-.nav{
+.nav {
   padding: 15px 0;
 }
-
-
 @media screen and (min-width: 675px) {
-
   body {
     background-color: $med-blue;
   }
@@ -63,9 +59,8 @@ body {
   }
 
   .article {
-  border-left: none;
-  border-right: none;
-
+    border-left: none;
+    border-right: none;
   }
 
   .side-content {
@@ -76,17 +71,13 @@ body {
     border-right: none;
   }
 }
-
 @media screen and (min-width: 999px) {
-
-    body {
-      background-color: $large-blue;
-    }
+  body {
+    background-color: $large-blue;
+  }
 }
-
 @media screen and (min-width: 1280px) {
-
-    body {
-      background-color: $xlarge-blue;
-    }
+  body {
+    background-color: $xlarge-blue;
+  }
 }
